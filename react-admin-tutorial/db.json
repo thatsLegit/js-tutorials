@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "post 1",
+      "body": "This is the post 1 body",
+      "postedAt": "01-01-2021"
+    },
+    {
+      "id": "2",
+      "title": "post 2",
+      "body": "This is the post 2 body",
+      "postedAt": "02-01-2021"
+    },
+    {
+      "title": "new post",
+      "body": "This is an updated post",
+      "postedAt": "1996-01-01",
+      "id": "V6CkCSE"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john.doe@gmail.com"
+    }
+  ]
+}

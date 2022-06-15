@@ -1,0 +1,20 @@
+{
+  "name": "react-admin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch db.json --port 5000 --middlewares ./range.js",
+    "client": "yarn --cwd client start",
+    "dev": "concurrently \"npm run server\" \"yarn run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "devDependencies": {
+    "concurrently": "^6.3.0"
+  }
+}

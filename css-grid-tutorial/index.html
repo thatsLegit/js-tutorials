@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS grid</title>
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns: 70% 30%;
+            /*grid-column-gap: 1em;
+            grid-row-gap: 1em;*/
+            grid-gap: 1em;
+        }
+
+        .wrapper>div {
+            background: #eee;
+            padding: 1em;
+        }
+
+        .wrapper>div:nth-child(odd) {
+            background: #ddd;
+        }
+    </style>
+</head>
+
+<body>
+    <div class='wrapper'>
+        <div>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis magni sit neque excepturi molestias,
+            repellendus dolorem expedita dignissimos. Deleniti molestiae delectus, impedit ab, laudantium nemo porro
+            iste, doloribus sequi quae consequatur officia in. Minima, fugit fuga? Porro ab iste velit sit, earum
+            tenetur molestiae dolores, ipsum modi aliquam laborum ducimus hic accusantium corrupti labore unde soluta
+            incidunt doloremque quia magnam numquam. Dignissimos, dolores commodi molestias laboriosam quo maiores?
+            Aspernatur commodi quasi atque et nesciunt aut provident dignissimos voluptas, sint blanditiis!
+        </div>
+        <div>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis atque corrupti velit optio cupiditate,
+            obcaecati rem laudantium eius voluptates. Dolorum modi vero minus quisquam nobis beatae ullam, accusamus
+            quidem dolores?
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis magni sit neque excepturi molestias,
+            repellendus dolorem expedita dignissimos. Deleniti molestiae delectus, impedit ab, laudantium nemo porro
+            iste, doloribus sequi quae consequatur officia in. Minima, fugit fuga? Porro ab iste velit sit, earum
+            tenetur molestiae dolores, ipsum modi aliquam laborum ducimus hic accusantium corrupti labore unde soluta
+            incidunt doloremque quia magnam numquam. Dignissimos, dolores commodi molestias laboriosam quo maiores?
+            Aspernatur commodi quasi atque et nesciunt aut provident dignissimos voluptas, sint blanditiis!
+        </div>
+        <div>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis atque corrupti velit optio cupiditate,
+            obcaecati rem laudantium eius voluptates. Dolorum modi vero minus quisquam nobis beatae ullam, accusamus
+            quidem dolores?
+        </div>
+    </div>
+</body>
+
+</html>
